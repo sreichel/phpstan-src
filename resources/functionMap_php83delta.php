@@ -27,9 +27,11 @@ return [
 		'str_increment' => ['non-falsy-string', 'string'=>'non-empty-string'],
 		'gc_status' => ['array{running:bool,protected:bool,full:bool,runs:int,collected:int,threshold:int,buffer_size:int,roots:int,application_time:float,collector_time:float,destructor_time:float,free_time:float}'],
 		'stream_get_meta_data' => ['array{timed_out:bool,blocked:bool,eof:bool,unread_bytes:int,stream_type:string,wrapper_type:string,wrapper_data:mixed,mode:string,seekable:bool,uri:string,mediatype?:string,base64?:bool}', 'fp'=>'resource'],
+		'xml_parser_get_option' => ['string|int|bool', 'parser'=>'resource', 'option'=>'int'],
 		'xml_parser_set_option' => ['bool', 'parser'=>'XMLParser', 'option'=>'int', 'value'=>'string|int|bool'],
 	],
 	'old' => [
+		'xml_parser_get_option' => ['string|int', 'parser'=>'resource', 'option'=>'int'],
 		'xml_parser_set_option' => ['bool', 'parser'=>'XMLParser', 'option'=>'int', 'value'=>'string|int'],
 	]
 ];

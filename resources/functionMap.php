@@ -13325,7 +13325,7 @@ return [
 'xml_parser_create' => ['resource', 'encoding='=>'string'],
 'xml_parser_create_ns' => ['resource', 'encoding='=>'string', 'sep='=>'string'],
 'xml_parser_free' => ['bool', 'parser'=>'resource'],
-'xml_parser_get_option' => ['mixed', 'parser'=>'resource', 'option'=>'int'],
+'xml_parser_get_option' => ['string|int|false', 'parser'=>'resource', 'option'=>'int'],
 'xml_parser_set_option' => ['bool', 'parser'=>'resource', 'option'=>'int', 'value'=>'string|int'],
 'xml_set_character_data_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],
 'xml_set_default_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],

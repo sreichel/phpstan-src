@@ -19,8 +19,9 @@ return [
 		'http_clear_last_response_headers' => ['void'],
 		'mb_lcfirst' => ['string', 'string'=>'string', 'encoding='=>'string'],
 		'mb_ucfirst' => ['string', 'string'=>'string', 'encoding='=>'string'],
+		'xml_set_unparsed_entity_decl_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string'],
 	],
 	'old' => [
-
+		'xml_set_unparsed_entity_decl_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string|null'],
 	]
 ];

@@ -13334,7 +13334,7 @@ return [
 'xml_set_external_entity_ref_handler' => ['bool', 'parser'=>'resource', 'hdl'=>'callable'],
 'xml_set_notation_decl_handler' => ['bool', 'parser'=>'resource', 'hdl'=>'callable'],
 'xml_set_object' => ['bool', 'parser'=>'resource', 'obj'=>'object'],
-'xml_set_processing_instruction_handler' => ['bool', 'parser'=>'resource', 'hdl'=>'callable'],
+'xml_set_processing_instruction_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],
 'xml_set_start_namespace_decl_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],
 'xml_set_unparsed_entity_decl_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],
 'XMLDiff\Base::__construct' => ['void', 'nsname'=>'string'],

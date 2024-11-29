@@ -13332,7 +13332,7 @@ return [
 'xml_set_element_handler' => ['bool', 'parser'=>'resource', 'shdl'=>'callable', 'ehdl'=>'callable'],
 'xml_set_end_namespace_decl_handler' => ['bool', 'parser'=>'resource', 'hdl'=>'callable'],
 'xml_set_external_entity_ref_handler' => ['bool', 'parser'=>'resource', 'hdl'=>'callable'],
-'xml_set_notation_decl_handler' => ['bool', 'parser'=>'resource', 'hdl'=>'callable'],
+'xml_set_notation_decl_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],
 'xml_set_object' => ['true', 'parser'=>'resource', 'obj'=>'object'],
 'xml_set_processing_instruction_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],
 'xml_set_start_namespace_decl_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],

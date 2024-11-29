@@ -13315,7 +13315,7 @@ return [
 'xhprof_enable' => ['void', 'flags='=>'int', 'options='=>'array'],
 'xhprof_sample_disable' => ['array<string,string>'],
 'xhprof_sample_enable' => ['void'],
-'xml_error_string' => ['string', 'code'=>'int'],
+'xml_error_string' => ['string|null', 'code'=>'int'],
 'xml_get_current_byte_index' => ['int', 'parser'=>'resource'],
 'xml_get_current_column_number' => ['int', 'parser'=>'resource'],
 'xml_get_current_line_number' => ['int', 'parser'=>'resource'],

@@ -13329,7 +13329,7 @@ return [
 'xml_parser_set_option' => ['bool', 'parser'=>'resource', 'option'=>'int', 'value'=>'mixed'],
 'xml_set_character_data_handler' => ['bool', 'parser'=>'resource', 'hdl'=>'callable'],
 'xml_set_default_handler' => ['bool', 'parser'=>'resource', 'hdl'=>'callable'],
-'xml_set_element_handler' => ['bool', 'parser'=>'resource', 'shdl'=>'callable', 'ehdl'=>'callable'],
+'xml_set_element_handler' => ['true', 'parser'=>'resource', 'shdl'=>'callable|string', 'ehdl'=>'callable|string'],
 'xml_set_end_namespace_decl_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],
 'xml_set_external_entity_ref_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],
 'xml_set_notation_decl_handler' => ['true', 'parser'=>'resource', 'hdl'=>'callable|string'],

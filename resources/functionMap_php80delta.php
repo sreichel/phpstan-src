@@ -119,7 +119,7 @@ return [
 		'round' => ['float', 'number'=>'float', 'precision='=>'int', 'mode='=>'1|2|3|4'],
 		'version_compare' => ['int|bool', 'version1'=>'string', 'version2'=>'string', 'operator='=>'string|null'],
 		'xml_parser_create' => ['XMLParser', 'encoding='=>'string'],
-		'xml_parser_create_ns' => ['XMLParser', 'encoding='=>'string', 'sep='=>'string'],
+		'xml_parser_create_ns' => ['XMLParser|false', 'encoding='=>'string|null', 'sep='=>'string'],
 		'xml_parser_free' => ['bool', 'parser'=>'XMLParser'],
 		'xml_parser_get_option' => ['string|int', 'parser'=>'XMLParser', 'option'=>'int'],
 		'xml_parser_set_option' => ['bool', 'parser'=>'XMLParser', 'option'=>'int', 'value'=>'string|int'],

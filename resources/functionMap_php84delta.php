@@ -19,6 +19,7 @@ return [
 		'http_clear_last_response_headers' => ['void'],
 		'mb_lcfirst' => ['string', 'string'=>'string', 'encoding='=>'string'],
 		'mb_ucfirst' => ['string', 'string'=>'string', 'encoding='=>'string'],
+		'xml_set_end_namespace_decl_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string|null'],
 		'xml_set_external_entity_ref_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string|null'],
 		'xml_set_notation_decl_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string|null'],
 		'xml_set_processing_instruction_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string|null'],
@@ -26,6 +27,7 @@ return [
 		'xml_set_unparsed_entity_decl_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string|null'],
 	],
 	'old' => [
+		'xml_set_end_namespace_decl_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string'],
 		'xml_set_external_entity_ref_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string'],
 		'xml_set_notation_decl_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string'],
 		'xml_set_processing_instruction_handler' => ['true', 'parser'=>'XMLParser', 'hdl'=>'callable|string'],
